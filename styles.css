@@ -1,0 +1,221 @@
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: darkslategrey;
+    background-color: #efefef;
+    background-image: url(https://i.picsum.photos/id/676/1400/600.jpg?hmac=ZUvvbdNIoP8RWhE1ESl4Y9oK1bLcV50iJF2Uz8h1mus);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#link{
+    color: lightsteelblue;
+}
+.link:hover { 
+    color: #00FF00; 
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    color: lightgray;
+    padding: 16px;
+}
+.card1{
+    font-size: larger;
+    font-weight: 1000;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    width: 100%;
+    color: #fff;
+    margin-left: 24px;
+}
+.action-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: medium;
+}
+.items{
+    padding: 8px;
+    margin: 2px 36px;
+    font-weight: bold;
+}
+
+.try-center{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic{
+    padding: 12px;
+    margin: 24px;
+    border: 0;
+    max-width: 100%;
+}
+.candidate-image{
+    width: 250px;
+    height: 250px;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 950px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 200px;
+} 
+
+.about-details{
+    padding: 12px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+    width: 60px;
+}
+.am{
+    color: grey;
+    font-weight: 500;
+}
+.name{
+    min-width: 500px;
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 36px;
+    border-bottom: 0.5px solid lightgrey;
+}
+.position{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(63, 61, 61);
+    margin-bottom: 8px;
+    margin-top: 6px;
+}
+.ul-list{
+    display: block;
+    float: center;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.5;
+    text-transform: uppercase;
+    list-style: none;
+}
+.ul-list .profile-details {
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9da0a7;
+}
+.contact-logo{
+    width: 950px;
+    font-size: 18px;
+    background-color: lightsteelblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#github{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.object-container{
+    max-width: 850px;
+    font-size: larger;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: lighter;
+    margin: 64px 16px;
+}
+.bar-container {
+    width: 100%;
+    background-color: rgb(240, 232, 232);
+    border-radius: 5px;
+}
+  
+.skills {
+    border-radius: 5px;
+    height: 10px;
+}
+  
+.html {
+    width: 90%; background-color: #04AA6D;
+    height: 10px;
+
+} /* Green */
+.css {
+    width: 80%; background-color: #2196F3;
+    height: 10px;
+
+} /* Blue */
+.js {
+    width: 85%; background-color: #f44336;
+    height: 10px;
+
+} /* Red */
+.bootstrap {
+    width: 60%; background-color: #808080;
+    height: 10px;
+
+} /* Dark Grey */
+
+.skills-container{
+    background-color:#fff;
+    padding: 16px;
+    border-radius: 5px;
+}
+.education-container{
+    background-color: #fff;
+    padding: 16px;
+}
+ul{
+    list-style: none;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    background-color: lightsteelblue;
+    padding: 4px;
+    max-width: 100px;
+    border-radius: 5px;
+}
+.college{
+    display: block;
+    position: relative;
+    font-weight: 500;
+    margin-left: 24px;
+    margin-top: 6px;
+}
+.edu-details{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.footer-container{
+    width: 100vh;
+}
+.footer-logo{
+    width: 100%;
+    opacity: 0.1;
+}
